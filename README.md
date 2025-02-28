@@ -55,6 +55,7 @@ Once the application is running, you will be presented with an interactive menu 
 - Add an employee
 - Update an employee role
 - Exit
+
 You can select any option by typing the number corresponding to your choice. For example, if you select View all departments, the program will display a table of all departments in the database. If you choose Add an employee, you'll be prompted to enter the employee's details, such as first name, last name, role, and manager. After completing any action, you’ll be returned to the main menu to continue interacting with the application or to exit. If you select Exit, the program will close.
 
 ## License
