@@ -20,7 +20,7 @@ The Employee Tracker application is a command-line interface (CLI) tool that hel
 2. Next, navigate into the project directory: cd employee-tracker
 3. Install the following: npm install
 4. Then, navigate into the db folder: cd db/
-5. Log into to SQL by running: psql -U (your username) & (enter your password)
+5. Log into to SQL by running: psql -U postgres & 0204
 6. Then, run the following commands: \i schema.sql; & \i seeds.sql;
 7. Quit out of SQL: \q 
 8. Navigate back to your main directory folder: cd .. 
