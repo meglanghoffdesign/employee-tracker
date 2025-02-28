@@ -4,7 +4,7 @@
 ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
-The Weather Dashboard is a web application that allows users to search for a city's weather conditions in real time. It fetches data from a weather API to display the current temperature, humidity, wind speed, and weather description. Additionally, it provides a 5-day forecast with temperature and weather conditions.
+The Employee Tracker application is a command-line interface (CLI) tool that helps manage a company's employee database. The app allows users to view departments, roles, and employees, and also add new departments, roles, and employees, as well as update employee roles. It uses PostgreSQL as the database and allows for easy manipulation and retrieval of employee data.
 
 ## Table of Contents
 - [Description](#description)
