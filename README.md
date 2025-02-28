@@ -23,8 +23,9 @@ The Employee Tracker application is a command-line interface (CLI) tool that hel
 5. Log into to SQL by running: psql -U postgres & 0204
 6. Then, run the following commands: \i schema.sql; & \i seeds.sql;
 7. Quit out of SQL: \q 
-8. Navigate back to your main directory folder: cd .. 
-9. After that, you can run the project with: node dist/server.js
+8. Navigate back to your main directory folder: cd ..
+9. Run: npx tsc
+10. After that, you can run the project with: node dist/server.js
 
 ## Usage
 Once the application is running, you will be presented with an interactive menu that allows you to manage the employee database. The prompt will ask you what action you would like to take, with options like:
