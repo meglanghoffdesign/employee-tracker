@@ -16,34 +16,15 @@ The Employee Tracker application is a command-line interface (CLI) tool that hel
 - [Questions](#questions)
 
 ## Installation
-To get started, clone the repository to your local machine using the following command:
-git clone https://github.com/your-username/employee-tracker.git
-
-Next, navigate into the project directory:
-cd employee-tracker
-
-Install the following:
-npm install
-
-Then, navigate into the db folder:
-cd db/
-
-Log into to SQL by running 
-psql -U (your username)
-(enter your password)
-
-Then, run the following commands: 
-\i schema.sql;
-\i seeds.sql;
-
-Quit out of SQL
-\q 
-
-Navigate back to your main directory folder:
-cd .. 
-
-After that, you can run the project with:
-node dist/server.js
+1. To get started, clone the repository to your local machine using the following command: git clone https://github.com/your-username/employee-tracker.git
+2. Next, navigate into the project directory: cd employee-tracker
+3. Install the following: npm install
+4. Then, navigate into the db folder: cd db/
+5. Log into to SQL by running: psql -U (your username) & (enter your password)
+6. Then, run the following commands: \i schema.sql; & \i seeds.sql;
+7. Quit out of SQL: \q 
+8. Navigate back to your main directory folder: cd .. 
+9. After that, you can run the project with: node dist/server.js
 
 ## Usage
 Once the application is running, you will be presented with an interactive menu that allows you to manage the employee database. The prompt will ask you what action you would like to take, with options like:
