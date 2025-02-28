@@ -16,7 +16,7 @@ The Employee Tracker application is a command-line interface (CLI) tool that hel
 - [Questions](#questions)
 
 ## Installation
-1. To get started, clone the repository to your local machine using the following command: git clone https://github.com/your-username/employee-tracker.git
+1. To get started, clone the repository to your local machine using the following command: git clone git@github.com:meglanghoffdesign/employee-tracker.git
 2. Next, navigate into the project directory: cd employee-tracker
 3. Install the following: npm install
 4. Then, navigate into the db folder: cd db/
